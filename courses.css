@@ -1,0 +1,31 @@
+body {
+    background-color: skyblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#h1 {
+    text-align: center;
+    background-color: skyblue;
+    align-items: center;
+}
+h1 {
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+#courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20x;
+    column-gap: 20px;
+}
+
+
+h1:active {
+    position: unset;
+    background-color: yellow;
+    color: blue;
+}

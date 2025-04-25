@@ -1,0 +1,54 @@
+body {
+    background-color: skyblue;
+    font-weight: bold;
+       color: black;
+       animation-name: google;
+       animation-duration: 3s;
+       transition: 3s;
+       animation-iteration-count: infinite;
+}
+
+@keyframes google {
+    from{background-color: skyblue;}
+    to{background-color: rgb(108, 108, 255)}
+}
+
+#divemail {
+   
+    text-align: center;
+}
+
+input {
+    width: 70%;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+}
+
+#divname {
+    text-align: center;
+}
+
+#big {
+    justify-content: center;
+}
+h1{
+    align-items:  center;
+    text-align: center;
+    visibility: visible;
+    height: 120px;
+}
+
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+}

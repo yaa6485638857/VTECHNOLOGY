@@ -1,0 +1,35 @@
+body {
+     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("C:/Users/PC/Downloads/ai-nuclear-energy-future-innovation-disruptive-technology.jpg");
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.192);
+    padding: 0.5rem 1rem;
+}
+
+.brand-title {
+    color: white;
+    font-size: 1.5rem;
+}
+
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links  a {
+    display: block;
+    padding: 0.5rem;
+}
+
+
+#links {
+    
+    display: flex;
+}
